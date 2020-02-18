@@ -19,6 +19,7 @@ Feature: Input fields
     Given   I am on the homepage
     When    I input a name: "Jamie"
     And     I input an initial: "K"
+    And     I click the Nickname checkbox
     And     I click "Suggest Female Rap Name"
     And     I click "Suggest Female Rap Name"
     Then    two names should be added to rap name table

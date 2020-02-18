@@ -5,9 +5,11 @@
 2. Rename your project "qa-interview-yourname"
 3. Make sure your Ruby environment is using `ruby 2.3.3`
 4. Be sure to bundle install
-5. Run the example feature file:
+5. You will need `chromedriver`:
+    - `brew tap homebrew/cask && brew cask install chromedriver`
+6. Run the example feature file:
     - `bundle exec cucumber features/example.feature`
-6. Create the tests below in order.  You should be able to create any tests by building on the
+7. Create the tests below in order.  You should be able to create any tests by building on the
    files that are already set up in the project.
 
 Homepage='http://www.myrapname.com/'
